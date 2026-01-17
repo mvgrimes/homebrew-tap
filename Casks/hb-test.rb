@@ -3,7 +3,7 @@ cask "hb-test" do
   name "hb-test"
   desc ""
   homepage ""
-  version "0.0.5"
+  version "0.0.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "hb-test" do
   on_macos do
     on_intel do
       url "https://github.com/mvgrimes/hb-test/releases/download/#{version}/hb-test_Darwin_x86_64.tar.gz"
-      sha256 "fb57d49ace5872457be7e853dc7482add03eb2c3312f596a229d0a8c94cbf3aa"
+      sha256 "856252a0476da3d238f8dfe473a81f386c92afc262d4c6860c5c57e378b0beac"
     end
     on_arm do
       url "https://github.com/mvgrimes/hb-test/releases/download/#{version}/hb-test_Darwin_arm64.tar.gz"
-      sha256 "553bd819314bc2f0f3b92f21e3bbeee0aa975ed24a5cf60de38423365b295012"
+      sha256 "a98e38df3a8f4c7b726dcfc59025b2149acfd5808bc265e9968d402b3bc28324"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mvgrimes/hb-test/releases/download/#{version}/hb-test_Linux_x86_64.tar.gz"
-      sha256 "cec3f0159307a2cb302c74592c5524be6a3a602d9b655e59d18dbb64e13d4f68"
+      sha256 "8347a43c41b84b6cb223d5c4c0889b5f18934ad9e39ce883f117b1c47fafbb6e"
     end
     on_arm do
       url "https://github.com/mvgrimes/hb-test/releases/download/#{version}/hb-test_Linux_arm64.tar.gz"
-      sha256 "a2f5d353464842db6886f83e950550873ff70913b882ad2755a9bca4c7f6ff22"
+      sha256 "a9ddb0209dc907bee25772f16ed52c71baadfdd9dfc85e4d27fcc7f435a24306"
     end
   end
 
