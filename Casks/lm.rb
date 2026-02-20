@@ -3,7 +3,7 @@ cask "lm" do
   name "lm"
   desc ""
   homepage ""
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "lm" do
   on_macos do
     on_intel do
       url "https://github.com/mvgrimes/lm/releases/download/#{version}/lm_Darwin_x86_64.tar.gz"
-      sha256 "81375075cd8e137824bd7483770371ee061ffee4983532e7053d6a47c5e61600"
+      sha256 "1d82e604b4f60d867045b4def5f8f73e067c04cc0fa58ac828b4b694eb7fd110"
     end
     on_arm do
       url "https://github.com/mvgrimes/lm/releases/download/#{version}/lm_Darwin_arm64.tar.gz"
-      sha256 "e4b7b378c75f8fe31a8dd3b52665b3bc3413317bc061e7b903c88443f4359b9d"
+      sha256 "6218f422a75f8817730c1b4cba00a589614196686134fac981b07371f11a1906"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mvgrimes/lm/releases/download/#{version}/lm_Linux_x86_64.tar.gz"
-      sha256 "a3a6d3c8e1a62128dd34f0734f07be06a9dccb17a446db6fa2e3c81ce0a502cd"
+      sha256 "d080610b066f8f12677821cd454eb1c4218c8b4300a519cbb472cf619d31cd2d"
     end
     on_arm do
       url "https://github.com/mvgrimes/lm/releases/download/#{version}/lm_Linux_arm64.tar.gz"
-      sha256 "d35d183ce88ce74746501c86238ab5400e8115b2b7e326039f3cb08c932bb049"
+      sha256 "164c754ff97650eb741d2fa707dc1410f8e30a90c98130f02b9283e4be117963"
     end
   end
 
