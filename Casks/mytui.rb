@@ -3,7 +3,7 @@ cask "mytui" do
   name "mytui"
   desc ""
   homepage ""
-  version "0.1.8"
+  version "0.1.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "mytui" do
   on_macos do
     on_intel do
       url "https://github.com/mvgrimes/mytui/releases/download/#{version}/mytui_Darwin_x86_64.tar.gz"
-      sha256 "d9d7d6b1ae6b90cc008a056d761f8a0e84d9eaeab1b6271635e6e03283e33914"
+      sha256 "4d336138f38fe201a29fabfe64758ac781e00a5c12af2612ce6f7bd18ef9bebc"
     end
     on_arm do
       url "https://github.com/mvgrimes/mytui/releases/download/#{version}/mytui_Darwin_arm64.tar.gz"
-      sha256 "4e4c99a77307bc740b31a1cf30c59e9c3c49c5aa67040850bcb323f95dcd899b"
+      sha256 "2181d53970552c01a5612091f3d1610a5f89db5a8f22e0bab56f41addf05ad4c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mvgrimes/mytui/releases/download/#{version}/mytui_Linux_x86_64.tar.gz"
-      sha256 "f2ef3baf5edd0247624d00c5034f7ff3966653417cf65abd35c021a6aba91f43"
+      sha256 "815af285eb051497219727fccea3004a7e7cffa37919f261933b7e38443f0b62"
     end
     on_arm do
       url "https://github.com/mvgrimes/mytui/releases/download/#{version}/mytui_Linux_arm64.tar.gz"
-      sha256 "e17806f5c2b85ed767bd93f2ab0bb08a13901ce7a0cdaab07191913ab17ef51a"
+      sha256 "38ce8f3329ccd6d5ee645b04ce6e57b2be956550095f4405f4819f3462bf13f5"
     end
   end
 
